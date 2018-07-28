@@ -1,0 +1,997 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+  }
+
+ 
+body {
+box-sizing: border-box;
+width:80%;
+margin: 0 auto;
+font-size:1em;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+	
+	color:darkgray;
+	font-family: 'Poiret One', cursive;
+
+}
+.col-1{
+	width:32%;
+}
+.col-2{
+	width: 66%;
+}
+
+img, iframe, form{
+	width: 100%;
+	max-width: 100%;
+}
+section{
+	width:100%;
+}
+/*//////Header Home////////////////////////////////////////////////*/
+.header{
+	width:100%;
+	margin: 0 auto;
+
+}
+.nik{
+	background: url(../images/nik-lanus-41808-unsplash.jpg);
+	background-size: cover;
+	width:100%;
+    height: 92vh;
+   
+}
+.hnavbar {
+	
+	margin-top:20px;
+	text-decoration: none;
+	margin-right: 0px;
+	text-align: right;
+	
+	margin-right: 0px;
+	padding:2% 0% 0% 10%;
+}
+.hnavbar a{
+	width: 15%;
+	text-align: center;
+	padding: 10px 40px;
+	text-decoration: none;
+	font-family: 'Poiret One', cursive; 
+	font-size:1.5em;
+	color:black;
+	
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+ a.broom {
+	
+	color:lightgray;
+	background-color: rgba(92, 87, 77, 0.5);
+	color: white;
+	border-radius: 5px;
+	  
+}
+.icon1{
+	visibility: hidden;
+}
+
+.logo{
+	position: absolute;
+		bottom:55px;
+		left: 200px;
+		font-size:30px;	
+}
+.lable{
+	font-family: 'Poiret One', cursive;
+	
+}
+  .visitorform{
+	
+	position: relative;
+	width: 30%;
+	height: 40%;
+	top: 55%;
+	left: 68%;
+	background-color: white;
+	border: 1px rgb(83, 78, 67) solid;
+	transform: 0 200px;
+	text-align: center;
+	margin-bottom:20%;
+	z-index: 3;
+  }
+  #checkin,
+  #checkout {
+	font-family: 'Poiret One', cursive;
+  height: 10%;
+  width: 30%;
+  margin: 6% 4% 6%;
+  border: solid 1px rgb(83, 78, 67);
+  border-radius: 0;
+  font-size: 0.8em;
+  padding-left: 10%;
+}
+  #visitor {
+	width: 60px;
+	margin: 10% 4% 8%;
+	border: solid 1px rgb(83, 78, 67);
+	border-radius: 0;
+	padding-left: 10%;
+  }
+  #continus{
+	border: solid 1px rgb(83, 78, 67);
+	padding: 1% 17%;
+	font-family: 'Poiret One', cursive;
+	width: 160px;
+	height: 26px;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: black;
+  }
+/*-------------------Section service---------------------*/
+.SEServices{
+	text-align: center;
+	padding:30px 20px 40px;
+	border:60px;
+	margin: 0 auto;
+	background-color:lightgrey;
+}
+
+#Services{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: 0 auto;
+	padding-left:12%;
+}
+.col-6{
+	align-content: center;
+	flex-direction: row;
+	display:inline-block;
+	height: 160px;
+    width: 280px;
+}
+.col-1 h3{
+	font-size: 1em;
+}
+
+
+/*////// OUR ROOM /////*/
+
+.SE3{
+	width: 100%;
+	height:450px;
+	background-color:lightgrey;
+	
+}
+.c1 {
+		float: left;
+		padding: 10px;
+		height: auto;	
+	}
+.wi{
+		width: 75%;
+	  }
+	 
+	  .ourRoom{
+		padding-top:2px;
+	}  
+	.text{
+	
+		letter-spacing: 2px;
+		text-align:left;
+		margin:10px 10px 10px;
+		color: black;
+	  }
+	  .roombutton{
+		padding: 2%;
+		text-align: center;
+		border: 2px rgb(83, 78, 67) solid;
+		border-radius: 5px;
+		background-color: white;
+		font-family: 'Poiret One', cursive;
+		height:12%;
+		width:20%;
+	 }
+ img.chair {
+		background-size: cover;
+		height: 800px;
+		width: 100%;
+	  }
+
+	 .fas{
+		 font-size:2em;
+	 }
+
+
+
+	 /*-----------------------guest section-----------*/
+	 .SEguest {
+		width: 100%; 
+		background-color:lightgrey;
+	
+	}
+	.parentdiv {
+		display: inline-block;
+		height: 100vh;
+		width: 100%;
+	}
+	.valueG{
+		text-align: center;
+	}
+	.SEGB {
+		width: 100%;
+		height:100%;
+		text-align:center;
+	  }
+	
+	.divgirlBoy{
+		height:70%;
+		width: 350px;
+		display:inline-block;
+		margin:20px;
+		border: 2px solid black;
+		background: white;
+		line-height: normal;
+	  }
+	  .divgirlBoy i{
+		 font-size: 1.2em;
+	  }
+	 .girlBoy {
+		  width:70%;
+		  height: 60%;
+		  margin-top: 10px;
+	  }
+	.pic {
+		font-size: 30px;
+		letter-spacing: 9px;
+		color: #615442;
+	} 
+/*------------------Contact page-------*/
+.headc{
+	flex-direction: row;
+}
+.bar{
+	display: flex;
+	
+}
+.contact{
+	background: url(../images/francesca-saraco-65449-unsplash.jpg);
+	background-size: cover;
+	width:100%;
+    height: 92vh;
+   
+}
+.rectangle{
+	width: fit-content;
+	position: relative;
+	margin: 0px auto;
+	top: 10%;
+	background: rgba(256, 256, 256, 0.80);
+	padding: 4% 8%;
+}
+.googlemap{
+	position: relative;
+	width: 66%;
+	margin-bottom: 6%;
+	top: 25px;
+	left:8px;
+}
+.location{
+color: lightgray;
+flex-direction: row;
+}
+.gpsse{
+	display: flex;
+	background-color:lightgray;
+   }
+.gpsse h5{
+
+    font-size: 0.8em;
+}
+
+
+
+.info{
+	
+	margin: 0 auto;
+	padding:2%;
+	padding-top: 2px;
+	margin-top:3px;
+}
+/*---------------GET IN TOUCH----------*/
+.gittouh{
+	flex-direction: row;
+}
+.container{
+	display: flex;
+	width: 100%;
+	
+}
+.inputtouch{
+	
+	border: 0px solid rgb(92, 87, 77);
+	margin: 0 auto;
+	padding: 3% 0 2% 2%;
+	text-align: center;
+	width: 60%;
+    color: white;
+}
+.inputtouch input{
+	text-align: left;
+	border: 2px solid rgb(92, 87, 77);
+	width: 45%;
+	margin: 0 0 3% 0;
+	padding: 1.5% 0 2% 2%;
+	border-radius: 2px;
+}
+textarea{
+	text-align: left;
+	border: 2px solid rgb(92, 87, 77);
+	width: 45%;
+	margin: 0 0 3% 0;
+	padding: 1.5% 0 2% 2%;
+	border-radius: 5px;
+
+}
+.inputtouch button{
+  text-align: center;
+  border: 2px solid rgb(92, 87, 77);
+  width: 45%;
+  margin: 0 0 3% 0;
+  padding: 1.5% 0 2% 2%;
+  background: rgb(92, 87, 77);
+  color: white;
+}
+.stil{
+	width: 40%;
+	background: white;
+	height:100%;
+	position: relative;
+	margin: 0;
+	top: 2%;
+}
+
+	  /*-----------------------footer-----------*/
+
+	  .footer{
+		flex-direction: row;
+	  }
+	  .divfoot{
+		background-color: rgb(92, 87, 77);
+		width: 100%;
+		height:100%;
+		display:flex;
+		
+	   padding-right: 2px;
+	  }
+	  .sign{
+		width:50%;
+		height:50%;
+		margin-left:55px;
+		}
+		.inputt{
+			font-family: 'Poiret One', cursive;  
+		   }
+.up{
+	font-family: 'Poiret One', cursive;
+	width: 160px;
+	height: 26px;
+	background-color: rgb(83, 78, 67);
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+}
+
+.contentt {
+		 width:50%;
+		 height:145px;
+		 margin-right:2%;
+		 margin-top: 100px;
+		 text-align: right;
+		
+	   }
+	   .socicon .fab{
+		font-size: 40px;
+		letter-spacing: 30px;
+		color: white;
+		padding-right:0px;
+		margin-right:2px;
+		z-index: 3;
+		visibility: visible;
+		text-align: right;
+	}
+
+
+/*---------------------------Room page-----------------------------*/
+#feature{
+	width: 100%;
+	height:90px;
+	text-align: center;
+	background-color:lightgray;
+	padding-top:3px;
+	
+}
+.asuda p{
+	margin: 0 auto;
+	padding-top:15%;
+	padding-left: 10%;
+	text-align: left;
+	font-size:0.9em;
+}
+.asuda h1{
+	margin: 0 auto;
+	padding-top:15%;
+	padding-left: 10%;
+	text-align:left;
+}
+
+.rhema{
+	width:50%;
+	height:760px;
+}
+.rhema2{
+	width:50%;
+	height:760px;
+}
+
+.ourRoom{
+	width:100%;
+	flex-direction: row;
+}
+.ourRoom2{
+	width:100%;
+	flex-direction: row;
+}
+.kall{
+	width:100%;
+	height:100%;
+	
+}
+.niceRoom{
+	display: flex;
+	height:700px;
+	width:100%;
+	margin-bottom: 0px;	
+}
+.niceRoom2{
+	display: flex;
+	height:700px;
+	width:100%;
+	margin-bottom: 0px;	
+}
+.textR p{
+padding-left: 16%;
+}
+.textR h1{
+	text-align: center;
+}
+.buton{
+		text-align: center;
+		border-radius: 7px;
+		border: 2px solid rgb(92, 87, 77);
+		margin: 15% auto;
+		border-radius: 7px;
+		padding: 4% 7%;
+		width: 80%;
+		margin-left: 16%;
+		font-family: 'Poiret One', cursive; 
+		background-color: white;
+}
+.buton1{
+	   font-family: 'Poiret One', cursive;  
+	   text-align: center;
+		border-radius: 7px;
+		border: 2px solid rgb(92, 87, 77);
+		margin: 15% auto;
+		border-radius: 7px;
+		padding: 4% 7%;
+		width: 50%;
+		margin-left: 10%;
+		background-color: white;
+	
+
+}
+
+.ohh{
+	display: flex;
+}
+.standardSE {
+	flex-direction: row;
+	background-color: lightgray;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.standardSE h2{
+	text-align: center;
+	padding-top:4%;
+	font-size: 2.5em;
+}
+
+.standardcontainer{
+	display:flex; 
+	margin:0px;
+}
+.img1{
+	width:100%;
+	height: auto;
+	margin:0px;
+	
+}
+
+.photo{
+	width: 100%;
+	padding:0px;
+	margin:10px;
+	background-color: white;
+	
+}
+.photo h3{
+	text-align: center;
+}
+
+.standardSE .paint img {
+	height: 230px;
+  }
+  #b3
+  {
+	 
+	text-align: center;
+	margin: 50px;
+	margin-left: 33%;
+	border-radius: 7px;
+	padding: 1.5% 9%;
+	border: 2px solid rgb(92, 87, 77);
+	width:35%;
+	height: 20%;
+	}
+ /* button{
+	  border-radius:6px;
+	  background-color: white;
+	  border:2px solid #615442;
+  }*/
+  /*------------media quere for tablet--------*/
+   @media only screen and (max-width: 768px)  {
+
+body{
+	width: 80%;
+}
+.header{
+	width: 100%;
+}
+.logo h2{
+	position: relative;
+}
+.hnavbar{
+	visibility: hidden;
+}
+ .icon1{
+	 visibility:visible;
+
+}
+a.icon1{
+	font-size: 4em;
+}
+.visitordiv {
+    position: relative;
+    top: -22px;
+    text-align: center;
+  }
+  .text{
+	  font-size: 0.9em;
+  }
+
+.SEServices{
+flex-direction: row;
+}
+.visitordiv {
+    position: relative;
+    top: -22px;
+    text-align: center;
+  }
+.col-1{
+	width: 32%;
+}
+.SEguest{
+	width: 100%;
+	flex-direction: row;
+}
+.SEGB{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.divgirlBoy h2,
+p{
+	font-size:0.9em;
+}
+.divgirlBoy{
+	height:75%;
+}
+.bar{
+	font-size:0.88em
+}
+.socicon .fab{
+	font-size:30px;
+}
+.divgirlBoy{
+	letter-spacing:0em;
+}
+.gpsse{
+	flex-direction: column;
+}
+.location{
+	width: 100%;
+	flex-direction: column;
+}
+.googlemap{
+	width: 80%;
+	margin: 0 auto;
+}
+.container{
+	
+	flex-direction:column-reverse;
+}
+.stil, .inputtouch{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.ourRoom {
+	width: 100%;
+	height: auto;
+	padding-top: 0px;
+	
+}
+.ourRoom2{
+	width: 100%;
+	height: auto;
+	padding-top: 0px;
+	
+}
+
+.kall{
+	height:400px;
+}
+.niceRoom{
+	height:400px;
+}
+.niceRoom2{
+	height:400px;
+}
+.buton1{
+	margin:12px 12px 4px 40px; 
+}
+
+.textR{
+	font-size:12px
+}
+.asuda{
+margin-top:10%;
+}
+.tablet{
+	height:450px;
+}
+.standardSE{
+width: 100%;
+height: auto;
+}
+  .standardcontainer{
+	  width: 100%;
+	  height:300px;
+  }
+ 
+  .standardSE .paint img {
+	height: 120px;
+  }
+
+  .container{
+	width:96%;
+	margin-left: 2%;
+	margin-right: 2%;
+		
+	}
+	.inputtouch{
+		width: 80%;
+	}
+	.log{
+		width: 80%;
+	}
+	input.log{
+		width: 80%;
+	}#bu{
+		width: 80%;
+	}
+	.palce{
+		display:inline-block;
+		
+	}
+	
+	
+  }
+  @media only screen and (max-width: 667px) {
+	body {
+	  width: 80%;
+	}
+	a.icon1{
+		font-size: 4em;
+	}
+	.logo{
+		position: relative;
+		left:5px;
+		bottom:5px
+	}
+.visitorform{
+	position: relative;
+    top:3px;
+    text-align: center;
+	width: 85%;
+	height: 80%;
+    left:22px;
+}
+.SEServices, .text{
+	width: 100%;
+}
+.SEServices h1{
+	margin-top:280px;
+}
+.SEServices{
+margin-bottom: 0px;
+}
+#Services{
+	flex-direction: row;
+}
+.col-1{
+	width: 50%;
+}
+.SE3{
+	flex-direction: column;
+	height:auto; 
+	width: 100%;   
+	text-align: center;
+	margin-top: 0px;
+}
+.c1{
+	width: 100%;
+	margin-top: 0px;
+	padding-top: 0;
+
+}
+
+.ourRoom{
+	width: 100%;
+	text-align: center;
+	height: auto;
+	padding-left:2px;
+	font-size: 35px;
+}
+.text{
+	width:100%;
+	padding-left: 5%;
+	padding-right: 7%;
+}
+.roombutton{
+	    padding: 2%;
+		height:12%;
+		width:40%;
+
+}
+.SEguest{
+	width: 100%;
+	height:900px;
+}
+.SEGB{
+	width: 100%;
+	flex-direction: column;
+}
+.divgirlBoy{
+	width: 80%;
+    margin: auto;
+	margin-bottom: 5px;
+	height:400px;
+}
+.footer{
+	width: 100%;
+	text-align: center;
+	height:280px;
+	
+}
+.divfoot{
+	 width: 100%;
+	 flex-direction: column;
+}
+.sign{
+	width: 80%;
+}
+.inputt, .up{
+	width: 100%;
+}
+.socicon {
+	width: 100%;
+	flex-direction: row;
+	position: relative;
+	top:0px;
+	left:80px;
+	bottom: 3px;
+	text-align: center; 
+	font-size:20px;
+}
+.contentt{
+	text-align: center;
+	width: 80%;
+}
+.rectangle{
+	width: 100%;
+	text-align: center;
+}
+
+.gpsse{
+	width: 100%;
+	flex-direction: column;
+	
+	
+}.location{
+	width: 100%;
+}
+.googlemap{
+	width: 96%;
+	top:21px;
+	left:2px;
+	right: 2px;
+	
+}
+.gittouh{
+	width: 100%;
+}
+	
+.stil {
+	width:100%;
+	
+}
+.container{
+width:96%;
+margin-left: 2%;
+margin-right: 2%;
+	
+}
+.inputtouch{
+	width: 100%;
+}
+.log{
+	width: 100%;
+}
+input.log{
+	width: 100%;
+}
+#bu{
+	width: 100%;
+}
+#feature{
+	font-size: 0.5em;
+}
+.ourRoom{
+	width: 100%;
+
+}
+.niceRoom{
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+}
+.rhema{
+	width: 80%;
+	margin:10%;
+	margin-top: 6%;
+	height: auto;
+	flex-direction: column;
+}
+.buton{
+	margin-top:12px;
+}
+.ourRoom2{
+	width: 100%;
+	height: auto;
+	font-size:1.2em;
+	display: flex;
+	padding-top: 1%;
+}
+.niceRoom2{
+	flex-direction: column-reverse;
+	width: 100%;
+	height: 960px;
+	margin-top: 2px;
+	text-align: left;
+	margin-left:6px;
+}
+.night{
+	width:100%;
+}
+.asuda h1{
+	width: 100%;
+	margin-top: 12px;
+	font-size: 80px;
+	text-align: center;
+}
+
+#try{
+	font-size: 35px;
+}
+.buton1{
+	padding:8px;
+	margin-left:20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textR{
+	width: 80%;
+	height: auto;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 0.5em;
+}
+.textR h1{
+	margin-top:3px;
+}
+.textR p{
+	text-align:left;
+}
+.asuda{
+	width: 100%;
+	height: auto;;
+	flex-direction: column;
+}
+.asuda h1{
+	font-size: 0.3em;
+}
+.standardSE{
+	width: 100%;
+}
+.standardcontainer{
+	flex-direction: column;
+	width: 100%;
+	margin-left:10px;
+	height: auto;
+	margin-top:8px;
+}
+.col-1{
+	width: 100%;
+}
+.photo{
+	flex-direction: column;
+	width: 90%;
+	margin-left:10px;
+}
+.footer{
+	width: 100%;
+}
+.divfoot{
+	margin-top:0px;
+}
+
+}
